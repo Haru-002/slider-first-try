@@ -41,3 +41,14 @@ body {
 .btns button:hover {
   background-color: purple;
 }
+
+@media (max-width: 800px){
+  .btns button {
+    width: 30px;
+    height: 30px;
+  }
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
