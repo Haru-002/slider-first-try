@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.slideWbtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.arrow {
+  width: 60px;
+}
+.slider {
+  display: flex;
+  width: 100%;
+}
+
+.slide-show {
+  overflow: hidden;
+  width:400px;
+}
+.btns button {
+  width: 20px;
+  height: 20px;
+  border-radius: 200px;
+  border: solid;
+  margin-top: 40px;
+  background-color: white;
+}
+.btns button:hover {
+  background-color: purple;
+}
