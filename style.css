@@ -47,8 +47,26 @@ body {
     width: 30px;
     height: 30px;
   }
+  .slide-show {
+    width: 250px; 
+  }
+
+  .arrow {
+    width: 35px; 
+  }
+
+  .slideWbtn {
+    gap: 10px;
+  }
+
+  .btns button {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+  }
+
   .container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
